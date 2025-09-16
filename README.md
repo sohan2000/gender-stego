@@ -2,6 +2,8 @@
 
 GenderStego is a framework for gait-based gender recognition and secure video steganography. The system uses pose estimation and deep learning to classify gender from human gait in videos, then protects privacy by masking people and embedding the original video inside a privacy-preserving skeletal video using steganography and encryption.
 
+# PPT [Link](https://docs.google.com/presentation/d/19Jf9-M_t9WXvd3hdspoi2o5ZFoC1VtkghXhVpJGWxp4/edit?usp=sharing)
+
 ## Features
 
 - Pose estimation using MediaPipe to extract human skeletons from video frames
