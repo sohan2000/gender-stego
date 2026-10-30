@@ -28,3 +28,7 @@ __pycache__/
 
 # raw per-video results (contain people in video, keys, crypto logs)
 Results 2/
+
+# evaluation outputs with DenseGait labels, and pose data of real people
+eval_predictions.csv
+*pose_estimations*.json
