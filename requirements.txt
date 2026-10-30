@@ -1,0 +1,14 @@
+# Notebooks were developed on Google Colab (Python 3.12, NVIDIA A100).
+# Versions are the ones Colab had installed at the time; newer versions will likely work.
+torch>=2.8
+ultralytics>=8.3      # YOLOv8x-Pose / YOLOv8x-Seg
+opencv-python>=4.12
+numpy>=2.0
+scipy>=1.16           # scipy.fftpack DCT
+pandas>=2.2
+openpyxl              # metrics written to .xlsx
+cryptography>=43      # AES-256-CTR + HMAC-SHA256
+matplotlib>=3.10
+seaborn               # View_Model_Graph.ipynb
+torchinfo             # Model_Arch.ipynb
+tqdm

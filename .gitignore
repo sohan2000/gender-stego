@@ -1,0 +1,30 @@
+# data & media
+DenseGait*/
+OUISIR*/
+*.zip
+*.mp4
+*.avi
+*.mov
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+output/
+__MACOSX/
+.DS_Store
+
+# secrets — NEVER commit
+*.key
+aes_key*
+hmac_key*
+*encryption_keys*.txt
+*crypto*.npy
+
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# raw per-video results (contain people in video, keys, crypto logs)
+Results 2/
