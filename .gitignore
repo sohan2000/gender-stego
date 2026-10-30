@@ -31,4 +31,4 @@ Results 2/
 
 # evaluation outputs with DenseGait labels, and pose data of real people
 eval_predictions.csv
-*pose_estimations*.json
+*pose*.json

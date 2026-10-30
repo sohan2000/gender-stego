@@ -67,7 +67,7 @@ The result is a “public” skeletal video that exposes only motion and gender 
 
   - The model leans towards the majority class: it finds 87% of female‑labelled clips but only 50% of male‑labelled ones.
   - On the 15,793 test clips with confident labels (DenseGait `Female` score ≤ 0.2 or ≥ 0.8), accuracy is 88.7% and ROC‑AUC 0.92, so a large share of the errors sit on clips whose automatic label is itself uncertain.
-  - Balanced accuracy by DenseGait's auto‑generated attributes ranges from 0.52 (`Boots`, n = 212) and 0.58 (`FormalWear`, n = 208; `AgeChild`, n = 341) to 0.75 (`Sandals`, n = 627), and is 0.66 / 0.69 / 0.71 for `BodyThin` / `BodyNormal` / `BodyFat`. See `eval_subgroups.csv`. This is a slice analysis on automatic labels, not a fairness audit; DenseGait has no ethnicity attribute.
+  - Balanced accuracy by DenseGait's auto‑generated attributes ranges from 0.52 (`Boots`, n = 212) and 0.58 (`FormalWear`, n = 208; `AgeChild`, n = 341) to 0.75 (`Sandals`, n = 627), and is 0.66 / 0.68 / 0.70 for `BodyThin` / `BodyNormal` / `BodyFat`. See `eval_subgroups.csv`. This is a slice analysis on automatic labels, not a fairness audit; DenseGait has no ethnicity attribute.
 
 - **Steganography (encrypted pipeline in this repo)** — vid2‑1 (2560×1440), first 60 frames, QP27B30; [`results/stego/`](results/stego/)
   - Stego PSNR **43.0 dB** (cover vs. stego), reconstruction PSNR **23.0 dB** (original vs. reconstructed, whole frame).
